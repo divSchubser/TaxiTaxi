@@ -1,11 +1,11 @@
 import "./button.css";
-import buttonText from "./button-text.html";
-import buttonLogo from "./button-logo.html";
+import buttonPrimary from "./button.html";
+import buttonSecondary from "./button-secondary.html";
 
 export default {
-  title: "Components/Button",
+  title: "Components/Buttons",
   parameters: { layout: "centered" },
 };
 
-export const withText = () => buttonText;
-export const withLogo = () => buttonLogo;
+export const ButtonPrimary = () => buttonPrimary;
+export const ButtonSecondary = () => buttonSecondary;
