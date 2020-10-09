@@ -23,6 +23,10 @@
   font-weight: var(--text-light);
   color: var(--text-color-light);
 }
+.app-layout__footer {
+  display: grid;
+  place-content: center;
+}
 
 /* Page padding */
 .header__text,
