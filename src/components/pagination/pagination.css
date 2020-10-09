@@ -6,8 +6,8 @@
 
 .pagination__dot {
   background-color: var(--text-secondary);
-  height: 9px;
-  width: 9px;
+  height: 10px;
+  width: 10px;
   margin-right: 10px;
   border-radius: 50%;
 }
