@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 52px 0;
+}
+
+.pagination__dot {
+  background-color: var(--text-secondary);
+  height: 9px;
+  width: 9px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.pagination__dot--active {
+  background-color: var(--color-primary);
+}

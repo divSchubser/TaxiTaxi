@@ -6,6 +6,9 @@
   --button-shadow: 0px 5px 15px #3030301a;
   --text-primary: #ffffff;
   --text-secondary: #bdbdbd;
+  --text-color-light: #505050;
+  --text-light: 300;
+  --text-color-header: #303030;
 }
 *,
 *::after,
