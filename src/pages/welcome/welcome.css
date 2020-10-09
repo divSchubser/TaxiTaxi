@@ -1,13 +1,13 @@
 .app-layout {
   height: 100vh;
   width: 100vw;
-  padding-top: 83px;
+  padding-top: 8vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
 
 .header__text {
-  padding-bottom: 58px;
+  padding-bottom: 5vh;
   color: var(--text-color-header);
 }
 
@@ -15,13 +15,17 @@
   object-fit: cover;
   /* object-position: 20% 80%; */
   width: 100vw;
-  height: 340px;
+  height: clamp(10vh, 40%, 37vh);
 }
 
 .create-account {
-  padding-top: 58px;
+  padding-top: 5vh;
   font-weight: var(--text-light);
   color: var(--text-color-light);
+}
+.app-layout__footer {
+  display: grid;
+  place-content: center;
 }
 
 /* Page padding */

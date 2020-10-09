@@ -1,0 +1,7 @@
+.home-indicator {
+  background-color: var(--text-secondary);
+  width: 30vw;
+  height: 5px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
