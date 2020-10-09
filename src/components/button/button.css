@@ -25,3 +25,14 @@
 .btn__img {
   height: 19px;
 }
+
+.btn--back {
+  /* justify-content: left; */
+  width: auto;
+  padding: 17px 20px;
+}
+
+.btn__text {
+  margin-left: 20px;
+  font-weight: 700;
+}

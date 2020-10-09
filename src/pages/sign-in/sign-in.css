@@ -1,0 +1,19 @@
+.app-layout--main {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 8vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: auto 5%;
+}
+
+.background-bubble {
+  background-image: url("../../assets/green-bubble.svg");
+  background-position: -500px -450px;
+  background-repeat: no-repeat;
+}
+
+.main__main {
+  display: flex;
+  flex-direction: column;
+}
